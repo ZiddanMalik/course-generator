@@ -1,21 +1,30 @@
 # Course Generator
-## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
 
 ## General info
-Generating course with video from youtube and Concept checking questions (CCQs) automaticly with the help of ai
+Automatically generate a comprehensive course with YouTube videos and relevant concept checking questions using AI.
 	
 ## Technologies
 Project is created with:
 * Next.js version: 14.3
-*  version: 2.33
-* Ament library version: 999
+* Tailwind CSS
+* Prisma
+* OpenAI API
+* YouTube Data API v3
 	
 ## Setup
-To run this project, install it locally using npm:
+To run this project, 
+1. setup the environment variables
 
+```
+DATABASE_URL=
+NEXTAUTH_SECRET=
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+OPENAI_API_KEY=
+UNSPLASH_API_KEY=
+YOUTUBE_API_KEY=
+```
+2. Install it locally using npm:
 ```
 $ npm install
 $ npm run dev
